@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+img{
+  height:1.7rem;
+  width:1.7rem;
+  justify-content:space-between;
+} 
+
+  .main{
+    background-color: black;
+  }
+  .footer a{
+    text-decoration: none;
+    
+  }
+  .footer a{
+    text-decoration: none;
+    color:black;
+  }
+    .footer p{
+      color:#52505E;
+      font:8px Roboto'sans-serif';
+      margin-bottom: 1rem;
+    }
+    .chnge{
+      font:15px Roboto,'sans-serif';
+      color:#52505E;
+      padding-bottom: 1.5rem;
+    }
+    .main{
+      background-image: url("https://c4.wallpaperflare.com/wallpaper/686/52/945/luxurious-hotel-room-wallpaper-preview.jpg");
+      height:80vh;
+       width:100vw;  
+       background-repeat: no-repeat;
+       background-size: cover;
+    }
+    .Facilities{
+      padding-top: 10rem;
+      padding-left: 5rem;
+      font:48px poppins,sans-serif;
+      color:aliceblue
+    }
+    .Facilities p{
+      color:white;
+      font-size: 1rem;
+    }
+    .vul{
+      padding-left:30rem;  
+      color:white;  
+
+    }
+    .enchance{
+      margin-top: 5rem;
+      justify-content: center;
+    }
+    .wi-fi{
+      padding: 4rem;
+      justify-content: space-between;
+    }
+    .high{
+      color:#131316;
+      font:22px poppins,'sans-serif';
+    }
+    .mag{
+      color:#52505E;
+      font:15px poppins,'sans-serif';
+    }
+    .Ten{
+      font:15px Roboto,'sans-serif';
+      margin-bottom: 5rem;;
+    }
+    .Ten p{
+      color:#52505E;
+      font:15px Roboto,'sans-serif';
+    }
+    .Ten h3{
+      margin-top: 5rem;
+      margin-bottom:1rem;
+      margin-left:2rem;
+      font:35px Poppins,sans-serif;
+      
+    }
+    .twelve{
+      background-image: url("https://wallpapers.com/images/hd/california-usa-aerial-shot-7du1ghak8bnx48vs.jpg");
+    height: 100vh;
+    width:auto;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 3rem;
+  color: aliceblue;
+  padding:7rem;
+    }
+    .twelve h5{
+    font-style: oblique;
+    }
+    .twelve h2{
+      font-size: xx-large;
+      font-style: initial;
+      font:37px poppins,'sans-serif';
+    }
+    .contact{
+     background-image: url("https://wallpaperaccess.com/full/639799.jpg");
+
+    }
+    @media(max-width:600px){
+      .Facilities{
+        height:15rem;
+        width:15rem;
+        flex-wrap: wrap;
+      }
+      .Facilities p{
+        font-size:small;
+        flex-wrap: initial;
+        padding-left: 1rem;
+      }
+    }
+
+  
